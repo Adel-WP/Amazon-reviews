@@ -3,7 +3,7 @@
 2. To identify potential users that could be contracted to write paid reviews.
 
 # How to run the code:
-1. Assuming that both SQLite and Power BI Desktop are already installed, download the original dataset from here: https://www.kaggle.com/datasets/rajgupta2019/amazon-user-data?resource=download
+1. Assuming that both a SQLite browser and Power BI Desktop are already installed, download the original dataset from here: https://www.kaggle.com/datasets/rajgupta2019/amazon-user-data?resource=download
 2. Run the attached SQL code one-by-one (follow the order of the file names)
 3. Given the constraints of using Power BI Service on a non-enterprise level, the sample dashboard is attached in pdf format. However, the dynamic Power BI dashboard would have otherwise been published on the Cloud and shared across the organisation.
 
