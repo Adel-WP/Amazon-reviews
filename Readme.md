@@ -5,7 +5,7 @@
 # How to run the code:
 1. Assuming that both SQLite and Power BI Desktop are already installed, download the original dataset from here: https://www.kaggle.com/datasets/rajgupta2019/amazon-user-data?resource=download
 2. Run the attached SQL code one-by-one (follow the order of the file names)
-3. Use the attached Power BI file to access the dashboard
+3. Given the constraints of using Power BI Service on a non-enterprise level, the sample dashboard is attached in pdf format. However, the dynamic Power BI dashboard would have otherwise been published on the Cloud and shared across the organisation.
 
 # Methodology:
 The number in brackets refers to the SQL file.
@@ -23,7 +23,7 @@ The number in brackets refers to the SQL file.
 * An additional column is added to the modified table, where we map if each user in each row matches to the list of helpful users identified above (5). If it's a match we populate with 1 (to represent TRUE), otherwise 0 (to represent FALSE).
 
 # Outputs:
-These findings were then visualised using Power BI desktop.
+These findings were then visualised using Power BI desktop. See bullet 3 of the **How to run the code** section for more explanation.
 
 * In the top left corner there are two filters: Year and Product ID. These update all charts in the dashboard with the exception of Word Cloud in the bottom left corner, which is a static view of most common words for the most highly rated products that we had identified in **step 2 of the Methodology section**.
 * Bottom right Word Cloud visual is, on the other hand, a dynamic view that allows to see the most common words in reviews for any given year/product.
