@@ -25,7 +25,7 @@ The number in brackets refers to the SQL file.
 # Outputs:
 These findings were then visualised using Power BI desktop. See bullet 3 of the **How to run the code** section for more explanation.
 
-* In the top left corner there are two filters: Year and Product ID. These update all charts in the dashboard with the exception of Word Cloud in the bottom left corner, which is a static view of most common words for the most highly rated products that we had identified in **step 2 of the Methodology section**.
+* In the top left corner there are two filters: Year and Product ID. These update all charts in the dashboard with the exception of Word Cloud in the bottom left corner, which is a static view of most common words for the most highly rated products that we had identified in **step 2 of the Methodology** section.
 * Bottom right Word Cloud visual is, on the other hand, a dynamic view that allows to see the most common words in reviews for any given year/product.
 * Above that there is a line chart that shows a trending view of average product scores by quarter for a given year/product.
 * Similarly, the KPI card above the line chart shows the average score of a product for a given year.
